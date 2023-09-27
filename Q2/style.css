@@ -1,0 +1,32 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+div{
+    background-color: azure;
+}
+.para__1{
+    color: rgb(6, 4, 4);
+    background-color: rgb(23, 111, 188);
+    font-size: 16px;
+}
+.para__city{
+color: chocolate;
+background-color: aqua;
+font-size: 25px;
+}
+.para__about{
+    color: #f32b2c;
+    background-color: #32f2a2;
+    font-size: 12px;
+}
+.para__story{
+color: #2314ff;
+background-color: #fff;
+font-size: 20px;
+}
+.paragraph__contact{
+    color: cornflowerblue;
+    background-color: #06007d;
+    font-size: 25px;
+
+}

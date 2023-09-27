@@ -1,0 +1,3 @@
+BEM:it means block element modifier
+BEM (Block Element Modifier) is a CSS naming convention for writing clean and maintainable CSS code. 
+the syntax of bem is .block__modifier--element

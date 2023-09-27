@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Sign_Up form</h2>
+
+      <form action="" method="">
+        <label for="firstName">First Name:</label>
+
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Enter ur FName"
+          required
+          minlength="3"
+        />
+        <br />
+        <label for="lasttName">Last Name:</label>
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Enter ur LName"
+          required
+          minlength="3"
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter ur email"
+          required
+          minlength="3"
+        />
+        <br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="*******"
+          required
+          minlength="6"
+        />
+        <br />
+        <label for="confirmPassword">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          placeholder="*******"
+          required
+          minlength="6"
+        />
+        <br />
+        <label for="age">Age:</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          placeholder="Enter ur Age"
+          required
+          min="0"
+          max="150"
+        />
+        <br />
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" required />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" required />
+        <br />
+
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>
